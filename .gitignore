@@ -131,6 +131,9 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# macOS files
+.DS_Store
+
 .vscode
 .idea
 
@@ -146,4 +149,17 @@ debug*
 private*
 crazy_functions/test_project/pdf_and_word
 crazy_functions/test_samples
-request_llm/jittorllms
+request_llms/jittorllms
+multi-language
+request_llms/moss
+media
+flagged
+request_llms/ChatGLM-6b-onnx-u8s8
+.pre-commit-config.yaml
+test.*
+temp.*
+objdump*
+*.min.*.js
+TODO
+experimental_mods
+search_results
